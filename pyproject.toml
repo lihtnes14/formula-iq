@@ -1,0 +1,19 @@
+[project]
+name = "f1-app"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "databricks>=0.2",
+    "databricks-sql-connector>=4.4.0",
+    "ddgs>=9.14.4",
+    "fastapi>=0.141.1",
+    "openai>=2.54.0",
+    "pathlib>=1.0.1",
+    "pydantic>=2.13.4",
+    "python-dotenv>=1.2.2",
+    "requests>=2.34.2",
+    "streamlit>=1.61.1",
+    "uvicorn>=0.52.2",
+]

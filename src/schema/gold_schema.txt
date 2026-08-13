@@ -1,0 +1,271 @@
+{
+    "dim_constructors": [
+        {
+            "col_name": "constructor_id",
+            "data_type": "string",
+            "comment": null
+        },
+        {
+            "col_name": "constructor_name",
+            "data_type": "string",
+            "comment": null
+        },
+        {
+            "col_name": "nationality",
+            "data_type": "string",
+            "comment": null
+        },
+        {
+            "col_name": "nationality_region",
+            "data_type": "string",
+            "comment": null
+        }
+    ],
+    "dim_drivers": [
+        {
+            "col_name": "driver_id",
+            "data_type": "string",
+            "comment": null
+        },
+        {
+            "col_name": "driver_name",
+            "data_type": "string",
+            "comment": null
+        },
+        {
+            "col_name": "driver_date_of_birth",
+            "data_type": "date",
+            "comment": null
+        },
+        {
+            "col_name": "nationality",
+            "data_type": "string",
+            "comment": null
+        },
+        {
+            "col_name": "nationality_region",
+            "data_type": "string",
+            "comment": null
+        }
+    ],
+    "dim_races": [
+        {
+            "col_name": "season",
+            "data_type": "int",
+            "comment": null
+        },
+        {
+            "col_name": "round",
+            "data_type": "int",
+            "comment": null
+        },
+        {
+            "col_name": "race_name",
+            "data_type": "string",
+            "comment": null
+        },
+        {
+            "col_name": "race_date",
+            "data_type": "date",
+            "comment": null
+        },
+        {
+            "col_name": "circuit_name",
+            "data_type": "string",
+            "comment": null
+        },
+        {
+            "col_name": "locality",
+            "data_type": "string",
+            "comment": null
+        },
+        {
+            "col_name": "country",
+            "data_type": "string",
+            "comment": null
+        }
+    ],
+    "ref_nationality_region": [
+        {
+            "col_name": "nationality",
+            "data_type": "string",
+            "comment": null
+        },
+        {
+            "col_name": "region",
+            "data_type": "string",
+            "comment": null
+        }
+    ],
+    "results_fact": [
+        {
+            "col_name": "season",
+            "data_type": "int",
+            "comment": null
+        },
+        {
+            "col_name": "round",
+            "data_type": "int",
+            "comment": null
+        },
+        {
+            "col_name": "constructor_id",
+            "data_type": "string",
+            "comment": null
+        },
+        {
+            "col_name": "driver_id",
+            "data_type": "string",
+            "comment": null
+        },
+        {
+            "col_name": "grid_position",
+            "data_type": "int",
+            "comment": null
+        },
+        {
+            "col_name": "laps",
+            "data_type": "int",
+            "comment": null
+        },
+        {
+            "col_name": "car_number",
+            "data_type": "int",
+            "comment": null
+        },
+        {
+            "col_name": "points",
+            "data_type": "float",
+            "comment": null
+        },
+        {
+            "col_name": "finish_position",
+            "data_type": "int",
+            "comment": null
+        },
+        {
+            "col_name": "finish_position_text",
+            "data_type": "string",
+            "comment": null
+        },
+        {
+            "col_name": "status",
+            "data_type": "string",
+            "comment": null
+        },
+        {
+            "col_name": "session_type",
+            "data_type": "string",
+            "comment": null
+        },
+        {
+            "col_name": "is_win",
+            "data_type": "boolean",
+            "comment": null
+        },
+        {
+            "col_name": "is_podium",
+            "data_type": "boolean",
+            "comment": null
+        },
+        {
+            "col_name": "has_points",
+            "data_type": "boolean",
+            "comment": null
+        }
+    ],
+    "v_constructors_standing": [
+        {
+            "col_name": "season",
+            "data_type": "int",
+            "comment": null
+        },
+        {
+            "col_name": "constructor_id",
+            "data_type": "string",
+            "comment": null
+        },
+        {
+            "col_name": "constructor_name",
+            "data_type": "string",
+            "comment": null
+        },
+        {
+            "col_name": "nationality",
+            "data_type": "string",
+            "comment": null
+        },
+        {
+            "col_name": "standing",
+            "data_type": "int",
+            "comment": null
+        },
+        {
+            "col_name": "race_starts",
+            "data_type": "bigint",
+            "comment": null
+        },
+        {
+            "col_name": "total_points",
+            "data_type": "double",
+            "comment": null
+        },
+        {
+            "col_name": "number_of_wins",
+            "data_type": "bigint",
+            "comment": null
+        },
+        {
+            "col_name": "number_of_podiums",
+            "data_type": "bigint",
+            "comment": null
+        }
+    ],
+    "v_driver_standing": [
+        {
+            "col_name": "season",
+            "data_type": "int",
+            "comment": null
+        },
+        {
+            "col_name": "driver_id",
+            "data_type": "string",
+            "comment": null
+        },
+        {
+            "col_name": "driver_name",
+            "data_type": "string",
+            "comment": null
+        },
+        {
+            "col_name": "nationality",
+            "data_type": "string",
+            "comment": null
+        },
+        {
+            "col_name": "standing",
+            "data_type": "int",
+            "comment": null
+        },
+        {
+            "col_name": "race_starts",
+            "data_type": "bigint",
+            "comment": null
+        },
+        {
+            "col_name": "total_points",
+            "data_type": "double",
+            "comment": null
+        },
+        {
+            "col_name": "number_of_win",
+            "data_type": "bigint",
+            "comment": null
+        },
+        {
+            "col_name": "number_of_podiums",
+            "data_type": "bigint",
+            "comment": null
+        }
+    ]
+}
